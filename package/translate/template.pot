@@ -1,0 +1,178 @@
+# Translation of Darwin Menu in LANGUAGE
+# Copyright (C) 2024
+# This file is distributed under the same license as the Darwin Menu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Darwin Menu\n"
+"Report-Msgid-Bugs-To: https://github.com/latgardi\n"
+"POT-Creation-Date: 2024-05-22 19:09+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "Custom commands"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Show custom commands in separate menu"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Custom commands menu title"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Add command"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Clear command list"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Title"
+msgstr ""
+
+#: ../contents/ui/config/configCustom.qml ../contents/ui/config/configGeneral.qml
+msgid "Command"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Icon:"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Global shortcut opens:"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml ../contents/ui/ForceQuit/ConfirmationDialog.qml ../contents/ui/ForceQuit/ForceQuit.qml
+msgctxt "force quit action"
+msgid "Force Quit"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Plasmoid"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Override actions"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About This PC action"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "System"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About this PC command"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Type here to override command"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Clear field"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Reset default"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "App Store command"
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Do you want to force %1 to quit?"
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "You will lose any unsaved changes."
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Cancel"
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgctxt "force quit title"
+msgid "Force Quit"
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "Configure this window to open on global shortcut."
+msgstr ""
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "You can open this window by pressing %1."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "About This PC"
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Commands"
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "System Settings..."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "App Store..."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Force Quit..."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Sleep"
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Restart..."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Shut Down..."
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Lock Screen"
+msgstr ""
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Log Out %1..."
+msgstr ""

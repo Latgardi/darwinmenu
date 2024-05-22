@@ -1,0 +1,26 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Latgardi",
+                "Email": "saikinmirai@gmail.com"
+            }
+        ],
+        "Name": "Darwin Menu",
+        "Name[be]": "Мэню Darwin",
+        "Id": "org.latgardi.darwinmenu",
+        "Description": "Darwin menu is a Plasma applet that provides a menu system similar to that found on other operating systems. It allows users to access frequently used system settings and session controls.\n\nApplet also provides \"Force Quit\" app, which can be opened with global shortcut.",
+        "Category": "Application Launchers",
+        "Icon": "start-here-kde",
+        "EnabledByDefault": true,
+        "License": "BSD-2-Clause",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.9",
+        "Website": "https://github.com/latgardi"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "KPackageStructure": "Plasma/Applet"
+}

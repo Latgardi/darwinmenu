@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="icon" type="String">
+      <label>The name of the icon to use for the compact representation (e.g. on a small panel).</label>
+      <default>start-here-kde</default>
+    </entry>
+    <entry name="useCustomButtonImage" type="Bool">
+      <label>Whether to use a custom image instead of an icon in the compact representation (e.g. on a small panel).</label>
+      <default>false</default>
+    </entry>
+    <entry name="customButtonImage" type="Url">
+      <label>The URL of the custom image to use instead of an icon in the compact representation (e.g. on a small panel).</label>
+      <default></default>
+    </entry>
+
+    <entry name="aboutThisPCUseCommand" type="Bool">
+      <label>Use command for About This PC action</label>
+      <default>false</default>
+    </entry>
+    <entry name="aboutThisPCCommand" type="String">
+      <label>Command for About This PC action</label>
+      <default>konsole -e '$SHELL -c "neofetch; $SHELL" &amp;'</default>
+    </entry>
+
+    <entry name="appStoreCommand" type="String">
+      <label>Use command for App Store action</label>
+      <default>plasma-discover</default>
+    </entry>
+  </group>
+    <entry name="customCommandsInSeparateMenu" type="Bool">
+      <label>Show custom commands in separate menu</label>
+      <default>false</default>
+    </entry>
+    <entry name="customCommandsMenuTitle" type="String">
+      <label>Custom commands menu title</label>
+      <default></default>
+    </entry>
+    <entry name="shortcutOpensPlasmoid" type="Bool">
+      <label>Global shortcut opens plasmoid menu</label>
+      <default>false</default>
+    </entry>
+    <entry name="commands" type="StringList">
+      <label>List of custom commands</label>
+      <default></default>
+    </entry>
+</kcfg>
+
+
+

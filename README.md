@@ -33,7 +33,7 @@ Go to `~/.local/share/plasma/plasmoids/org.latgardi.darwinmenu/translate/` and r
 
 ## Screenshots
 
-![](https://imgur.com/a/f9fzUU3)
+<img src="https://github.com/Latgardi/darwinmenu/assets/85876063/319b82c0-1a60-472c-8265-6a050a581cab" alt="screenshot">
 
 ## Translating
 

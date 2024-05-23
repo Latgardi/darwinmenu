@@ -42,6 +42,15 @@ AbstractButton {
         return MainMenuButton.State.Rest;
     }
 
+    Connections {
+        target: Plasmoid
+        function onActivated() {
+            Plasmoid.configuration.shortcutOpensPlasmoid
+                ? menuButton.clicked()
+                : forceQuit.show()
+        }
+    }
+
     Sessions.SessionManagement {
         id: sm
     }
@@ -78,12 +87,30 @@ AbstractButton {
     }
 
     Layout.preferredHeight: root.height
-    Layout.preferredWidth: Layout.preferredHeight * 1.5
+    Layout.preferredWidth: Plasmoid.configuration.useRectangleButtonShape
+        ? Layout.preferredHeight * 1.5
+        : Layout.preferredHeight
 
-    contentItem: Kirigami.Icon {
-        id: menuIcon
-        anchors.fill: parent
-        source: root.icon
+    contentItem: Item {
+        width: parent.width
+        height: parent.height
+        Kirigami.Icon {
+            id: menuIcon
+            anchors.centerIn: parent
+            source: root.icon
+            height: {
+                if (Plasmoid.configuration.useFixedIconSize) {
+                    if (Plasmoid.configuration.resizeIconToRoot) {
+                        return Plasmoid.configuration.fixedIconSize > root.height
+                            ? root.height
+                            : Plasmoid.configuration.fixedIconSize
+                    }
+                    return Plasmoid.configuration.fixedIconSize
+                }
+                return parent.height * (Plasmoid.configuration.iconSizePercent / 100)
+            }
+            width: height
+        }
     }
 
     down: menu.isOpened
@@ -108,8 +135,8 @@ AbstractButton {
             id: aboutThisPCMenuItem
             text: i18n("About This PC")
             onTriggered: menuButton.aboutThisPCUseCommand
-                    ? logic.openExec(menuButton.aboutThisPCCommand)
-                    : KCMLauncher.openInfoCenter("")
+                ? logic.openExec(menuButton.aboutThisPCCommand)
+                : KCMLauncher.openInfoCenter("")
         }
 
         QtLabs.MenuSeparator {}
@@ -210,7 +237,7 @@ AbstractButton {
         }
         QtLabs.MenuItem {
             text: {
-                    i18n("Log Out %1...", kUser.fullName)
+                i18n("Log Out %1...", kUser.fullName)
             }
             shortcut: "Ctrl+Alt+Delete"
             onTriggered: sm.requestLogout()

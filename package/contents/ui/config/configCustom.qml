@@ -15,7 +15,7 @@ KCM.ScrollViewKCM {
     property list<string> cfg_commands: Plasmoid.configuration.commands ?? []
 
     header: ColumnLayout {
-        CheckBox {
+        Switch {
             id: customCommandsInSeparateMenu
             text: i18n("Show custom commands in separate menu")
             checked: Plasmoid.customCommandsInSeparateMenu.checked

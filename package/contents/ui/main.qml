@@ -15,23 +15,10 @@ PlasmoidItem  {
 
     preferredRepresentation: fullRepresentation
     compactRepresentation: null
-    fullRepresentation: FocusScope {
-        id: representation
-        x: menuButton.x; y: menuButton.y
-        width: menuButton.width; height: menuButton.height
-        MainMenuButton {
+    fullRepresentation: MainMenuButton {
             id: menuButton
             anchors.fill: parent
         }
-        Connections {
-            target: Plasmoid
-            function onActivated() {
-                Plasmoid.configuration.shortcutOpensPlasmoid
-                    ? menuButton.clicked()
-                    : forceQuit.show()
-            }
-        }
-    }
 
     Component.onCompleted: {
         if (plasmoid.globalShortcut.toString().length === 0) {

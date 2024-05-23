@@ -1,4 +1,4 @@
-# Translation of Darwin Menu in LANGUAGE
+# Translation of Darwin Menu in be
 # Copyright (C) 2024
 # This file is distributed under the same license as the Darwin Menu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -19,196 +19,196 @@ msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
-msgstr ""
+msgstr "Асноўныя"
 
 #: ../contents/config/config.qml
 msgid "Custom commands"
-msgstr ""
+msgstr "Карыстальніцкія каманды"
 
 #: ../contents/ui/ForceQuit/ConfirmationDialog.qml
 msgid "Do you want to force %1 to quit?"
-msgstr ""
+msgstr "Ці хочаце прымусова скончыць %1?"
 
 #: ../contents/ui/ForceQuit/ConfirmationDialog.qml
 msgid "You will lose any unsaved changes."
-msgstr ""
+msgstr "Вы згубіце ўсе незахаваныя зьмены."
 
 #: ../contents/ui/ForceQuit/ConfirmationDialog.qml
 msgid "Cancel"
-msgstr ""
+msgstr "Скасаваць"
 
 #: ../contents/ui/ForceQuit/ConfirmationDialog.qml ../contents/ui/ForceQuit/ForceQuit.qml ../contents/ui/config/configGeneral.qml
 msgctxt "force quit action"
 msgid "Force Quit"
-msgstr ""
+msgstr "Скончыць прымусова"
 
 #: ../contents/ui/ForceQuit/ForceQuit.qml
 msgctxt "force quit title"
 msgid "Force Quit"
-msgstr ""
+msgstr "Прымусовае заканчэньне"
 
 #: ../contents/ui/ForceQuit/ForceQuit.qml
 msgid "If an app doesn't respond for a while, select its name and click Force Quit."
-msgstr ""
+msgstr "Калі праграма некаторы час не адказвае, абярыце яе назву і націсьніце Скончыць прымусова"
 
 #: ../contents/ui/ForceQuit/ForceQuit.qml
 msgid "Configure this window to open on global shortcut."
-msgstr ""
+msgstr "Наладзьце адкрыцьцё гэтага акна з дапамогай скароту."
 
 #: ../contents/ui/ForceQuit/ForceQuit.qml
 msgid "You can open this window by pressing %1."
-msgstr ""
+msgstr "Вы можаце адкрыць гэтае акно, націснуўшы %1."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "About This PC"
-msgstr ""
+msgstr "Пра гэты ПК"
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Commands"
-msgstr ""
+msgstr "Каманды"
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "System Settings..."
-msgstr ""
+msgstr "Сыстэмныя налады..."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "App Store..."
-msgstr ""
+msgstr "App Store..."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Force Quit..."
-msgstr ""
+msgstr "Скончыць прымусова..."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Sleep"
-msgstr ""
+msgstr "Сон"
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Restart..."
-msgstr ""
+msgstr "Перазапуск..."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Shut Down..."
-msgstr ""
+msgstr "Выключэньне.."
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Lock Screen"
-msgstr ""
+msgstr "Заблякаваць экран"
 
 #: ../contents/ui/MainMenuButton.qml
 msgid "Log Out %1..."
-msgstr ""
+msgstr "Скончыць сэанс %1..."
 
 #: ../contents/ui/config/configCustom.qml
 msgid "Show custom commands in separate menu"
-msgstr ""
+msgstr "Паказваць карыстальніцкія каманды ў асобным мэню"
 
 #: ../contents/ui/config/configCustom.qml
 msgid "Custom commands menu title"
-msgstr ""
+msgstr "Назва пункта мэню з камандамі"
 
 #: ../contents/ui/config/configCustom.qml
 msgid "Add command"
-msgstr ""
+msgstr "Дадаць каманду"
 
 #: ../contents/ui/config/configCustom.qml
 msgid "Clear command list"
-msgstr ""
+msgstr "Ачысьціць сьпіс камандаў"
 
 #: ../contents/ui/config/configCustom.qml
 msgid "Title"
-msgstr ""
+msgstr "Назва"
 
 #: ../contents/ui/config/configCustom.qml ../contents/ui/config/configGeneral.qml
 msgid "Command"
-msgstr ""
+msgstr "Каманда"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Main"
-msgstr ""
+msgstr "Агульныя"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Button shape"
-msgstr ""
+msgstr "Форма кнопкі"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Rectangle"
-msgstr ""
+msgstr "Прамавугольнік"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Square"
-msgstr ""
+msgstr "Квадрат"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Global shortcut opens:"
-msgstr ""
+msgstr "Глябальны скарот адкрывае:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Plasmoid"
-msgstr ""
+msgstr "Плязмоід"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Icon"
-msgstr ""
+msgstr "Значок"
 
 #: ../contents/ui/config/configGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
-msgstr ""
+msgstr "Абраць"
 
 #: ../contents/ui/config/configGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
-msgstr ""
+msgstr "Скінуць значок"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Icon size"
-msgstr ""
+msgstr "Памер значка"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Relative"
-msgstr ""
+msgstr "Адносны"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Fixed"
-msgstr ""
+msgstr "Фіксаваны"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Preview icon size"
-msgstr ""
+msgstr "Прагляд памеру значка"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Fit to root element"
-msgstr ""
+msgstr "Упісаць у бацькоўскі элемент"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Override actions"
-msgstr ""
+msgstr "Пераназначыць дзеяньні"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This PC action"
-msgstr ""
+msgstr "Дзеяньне \"Пра гэты ПК\""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System"
-msgstr ""
+msgstr "Сыстэмнае"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About this PC command"
-msgstr ""
+msgstr "Каманда \"Пра гэты ПК \""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Type here to override command"
-msgstr ""
+msgstr "Пачніце пісаць каб пераназначыць каманду"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Clear field"
-msgstr ""
+msgstr "Ачысьціць"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Reset default"
-msgstr ""
+msgstr "Скінуць"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store command"
-msgstr ""
+msgstr "Каманда \"App Store\""

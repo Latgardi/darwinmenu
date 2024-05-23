@@ -9,6 +9,16 @@ Menu uses global theme, so will adapt to any Plasma style.
 ## Requirements
 Plasma 6
 
+## Installation 
+1. Download latest release from [releases page](https://github.com/Latgardi/darwinmenu/releases)
+2. Install with ```kpackagetool6 -i %release%```
+3. ...or update with ```kpackagetool6 -u %release%```
+   
+You can also install it using Plasma GUI
+
+1. Right Click Panel > Panel Options > Add Widgets
+2. Get New Widgets > Install Widget From Local File
+
 ## Install via KDE
 
 1. Right Click Panel > Panel Options > Add Widgets

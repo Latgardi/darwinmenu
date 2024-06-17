@@ -1,0 +1,218 @@
+# Translation of Darwin Menu in LANGUAGE
+# Copyright (C) 2024
+# This file is distributed under the same license as the Darwin Menu package.
+#
+# Heimen Stoffels <vistausss@fastmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Darwin Menu\n"
+"Report-Msgid-Bugs-To: https://github.com/latgardi\n"
+"POT-Creation-Date: 2024-05-23 17:46+0300\n"
+"PO-Revision-Date: 2024-06-16 23:49+0200\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 21.08.0\n"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Algemeen"
+
+#: ../contents/config/config.qml
+msgid "Custom commands"
+msgstr "Eigen opdrachten"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Do you want to force %1 to quit?"
+msgstr "Weet je zeker dat je ‘%1’ gedwongen wilt afsluiten?"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "You will lose any unsaved changes."
+msgstr "Alle niet-opgeslagen wijzigingen worden gewist."
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml ../contents/ui/ForceQuit/ForceQuit.qml ../contents/ui/config/configGeneral.qml
+msgctxt "force quit action"
+msgid "Force Quit"
+msgstr "Gedwongen afsluiten"
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgctxt "force quit title"
+msgid "Force Quit"
+msgstr "Gedwongen afsluiten"
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid ""
+"If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr ""
+"Als het programma in kwestie niet reageert, klik dan op de naam en vervolgens"
+" op ‘Gedwongen afsluiten’."
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "Configure this window to open on global shortcut."
+msgstr "Stel in dat dit venster via een globale sneltoets kan worden geopend."
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "You can open this window by pressing %1."
+msgstr "Open dit venster met behulp van de sneltoets ‘%1’."
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "About This PC"
+msgstr "Over deze computer"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Commands"
+msgstr "Opdrachten"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "System Settings..."
+msgstr "Systeeminstellingen…"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "App Store..."
+msgstr "Appwinkel…"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Force Quit..."
+msgstr "Gedwongen afsluiten…"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Sleep"
+msgstr "Slaapstand"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Restart..."
+msgstr "Herstarten…"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Shut Down..."
+msgstr "Afsluiten…"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Lock Screen"
+msgstr "Scherm vergrendelen"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Log Out %1..."
+msgstr "‘%1’ afmelden…"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Show custom commands in separate menu"
+msgstr "Eigen opdrachten in apart menu tonen"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Custom commands menu title"
+msgstr "Naam van menu met eigen opdrachten"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Add command"
+msgstr "Opdracht toevoegen"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Clear command list"
+msgstr "Opdrachtenlijst wissen"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Title"
+msgstr "Naam"
+
+#: ../contents/ui/config/configCustom.qml ../contents/ui/config/configGeneral.qml
+msgid "Command"
+msgstr "Opdracht"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Main"
+msgstr "Algemeen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Button shape"
+msgstr "Knopvorm"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Rectangle"
+msgstr "Rechthoekig"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Square"
+msgstr "Vierkant"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Global shortcut opens:"
+msgstr "Openen met globale sneltoets:"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Plasmoid"
+msgstr "Plasmoid"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Icon"
+msgstr "Pictogram"
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Kiezen…"
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Pictogram wissen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Icon size"
+msgstr "Pictogramgrootte"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Relative"
+msgstr "Inpassen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Fixed"
+msgstr "Vaste grootte"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Preview icon size"
+msgstr "Grootte voorvertonen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Fit to root element"
+msgstr "Inpassen in hoofdelement"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Override actions"
+msgstr "Acties instellen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About This PC action"
+msgstr "Over deze computer-actie"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "System"
+msgstr "Systeem"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About this PC command"
+msgstr "Over deze computer-opdracht"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Type here to override command"
+msgstr "Typ hier om de opdracht aan te passen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Clear field"
+msgstr "Veld wissen"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Reset default"
+msgstr "Standaardwaarden terugzetten"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "App Store command"
+msgstr "Appwinkelopdracht"

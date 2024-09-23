@@ -1,0 +1,215 @@
+# Translation of Darwin Menu in LANGUAGE
+# Copyright (C) 2024
+# This file is distributed under the same license as the Darwin Menu package.
+#
+# João Fernandes devel.neto@gmail.com, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Darwin Menu\n"
+"Report-Msgid-Bugs-To: https://github.com/latgardi\n"
+"POT-Creation-Date: 2024-08-15 13:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: João Fernandes devel.neto@gmail.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Geral"
+
+#: ../contents/config/config.qml
+msgid "Custom commands"
+msgstr "Comandos Personalisados"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Do you want to force %1 to quit?"
+msgstr "Deseja encerrar o %1 de forma forçada?"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "You will lose any unsaved changes."
+msgstr "Você irá perder alterações não salvas"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../contents/ui/ForceQuit/ConfirmationDialog.qml ../contents/ui/ForceQuit/ForceQuit.qml ../contents/ui/config/configGeneral.qml
+msgctxt "force quit action"
+msgid "Force Quit"
+msgstr "Forçar Encerramento"
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgctxt "force quit title"
+msgid "Force Quit"
+msgstr "Forçar Encerramento"
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "If an app doesn't respond for a while, select its name and click Force Quit."
+msgstr "Se algum app parar e responder por um tempo, selecione o nome e clique em Forçar Encerramento"
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "Configure this window to open on global shortcut."
+msgstr "Configure esta janela para abrir em um atalho global."
+
+#: ../contents/ui/ForceQuit/ForceQuit.qml
+msgid "You can open this window by pressing %1."
+msgstr "Você pode abrir esta janela pressionando %1"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "About This PC"
+msgstr "Sobre este PC"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Commands"
+msgstr "Comandos"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "System Settings..."
+msgstr "Configurações de Sistema..."
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "App Store..."
+msgstr "Loja de Aplicativos"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Force Quit..."
+msgstr "Forçar Encerramento"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Sleep"
+msgstr "Hibernar"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Restart..."
+msgstr "Reiniciar..."
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Shut Down..."
+msgstr "Desligar..."
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Lock Screen"
+msgstr "Bloquear"
+
+#: ../contents/ui/MainMenuButton.qml
+msgid "Log Out %1..."
+msgstr "Encerrar Sessão %1"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Show custom commands in separate menu"
+msgstr "Mostrar comandos personalizados em menu separado"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Custom commands menu title"
+msgstr "Título do menu de comandos personalizados"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Add command"
+msgstr "Adicionar comando"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Clear command list"
+msgstr "Limpar lista de comandos"
+
+#: ../contents/ui/config/configCustom.qml
+msgid "Title"
+msgstr "Titulo"
+
+#: ../contents/ui/config/configCustom.qml ../contents/ui/config/configGeneral.qml
+msgid "Command"
+msgstr "Comando"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Main"
+msgstr "Principal"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Button shape"
+msgstr "Formato do Botão"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Rectangle"
+msgstr "Retangulo"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Square"
+msgstr "Quadrado"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Global shortcut opens:"
+msgstr "Atalho global abre:"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Plasmoid"
+msgstr "Plasmoid"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Icon"
+msgstr "Icone"
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "Escolha..."
+
+#: ../contents/ui/config/configGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Limpar icone"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Icon size"
+msgstr "Tamanho do icone"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Relative"
+msgstr "Relativo"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Fixed"
+msgstr "Fixo"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Preview icon size"
+msgstr "Visualizar tamanho do icone"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Fit to root element"
+msgstr "Ajustar ao elemento raiz"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Override actions"
+msgstr "Sobreescrever ações"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About This PC action"
+msgstr "Ação sobre este PC"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "System"
+msgstr "Sistema"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About this PC command"
+msgstr "Comando Sobre este PC"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Type here to override command"
+msgstr "Digite pra sobreescrever o comando"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Clear field"
+msgstr "Limpar o campo"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Reset default"
+msgstr "Redefinir padrão"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "App Store command"
+msgstr "Comando Loja de Aplicativos"
